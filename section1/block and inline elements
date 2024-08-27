@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block and Inline Elements</title>
+    <style>
+        .block {
+            background-color: #e0e0e0;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .inline {
+            background-color: #d0f0c0;
+            padding: 5px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">This is a block element.</div>
+    <p class="block">This is another block element.</p>
+    <span class="inline">This is an inline element.</span>
+    <a href="#" class="inline">This is another inline element.</a>
+</body>
+</html>
