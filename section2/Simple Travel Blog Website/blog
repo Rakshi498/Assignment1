@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog - Blog Posts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Travel Adventures</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Blog Posts Page Content -->
+    <section id="blog">
+        <div class="container">
+            <h2>Blog Posts</h2>
+            <div class="blog-list">
+                <div class="blog-post">
+                    <h3>Exploring the Streets of Tokyo</h3>
+                    <p>March 15, 2024 - A journey through Tokyo’s bustling streets, rich culture, and culinary delights. <a href="blog-detail.html">Read More</a></p>
+                </div>
+                <div class="blog-post">
+                    <h3>Discovering Iceland’s Natural Wonders</h3>
+                    <p>February 20, 2024 - A breathtaking adventure through Iceland’s glaciers, waterfalls, and geothermal springs. <a href="blog-detail.html">Read More</a></p>
+                </div>
+                <div class="blog-post">
+                    <h3>Paris: The City of Light</h3>
+                    <p>January 10, 2024 - An exploration of Parisian landmarks, charming streets, and iconic cuisine. <a href="blog-detail.html">Read More</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Travel Adventures</p>
+            <div class="social-media">
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
