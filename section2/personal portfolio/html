@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">My Portfolio</h1>  
+            <img src="logo.jpeg" alt="logo image">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="Avatar.avif" alt="Avatar image" class="about-image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac orci quis urna consectetur venenatis. Sed id sollicitudin lacus, nec iaculis velit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="project1.jpeg" alt="Project 1">
+                    <h3>Zoo management System</h3>
+                    <p>The Zoo Management System is a Java-based application designed to manage zoos, animals, and interactions. It provides functionalities for administrators and visitors. Below, you'll find a comprehensive overview of the project, its structure, and key components.</p>
+                    <a href="#" target="_blank">View Live</a>
+                    <a href="#" target="_blank">View Code</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpeg" alt="Project 2">
+                    <h3>Employee Management System</h3>
+                    <p>An employee management system is technology designed to streamline core HR services and improve workforce productivity. It accomplishes these goals largely by automating labor-intensive, administrative tasks and using analytics to drive business decisions.</p>
+                    <a href="#" target="_blank">View Live</a>
+                    <a href="#" target="_blank">View Code</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project3.webp" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>Dairy management systems are equipped with an inventory and stock management module. This is a boon for dairies as it allows owners to track, control, and effectively manage their milk and milk products.</p>
+                    <a href="#" target="_blank">View Live</a>
+                    <a href="#" target="_blank">View Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Personal Portfolio</p>
+            <div class="social-media">
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
