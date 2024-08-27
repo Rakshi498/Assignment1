@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website - Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Recipe Delight</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Recipes Page Content -->
+    <section id="recipes">
+        <div class="container">
+            <h2>Recipes</h2>
+            <div class="recipe-list">
+                <div class="recipe-item">
+                    <h3>Spaghetti Carbonara</h3>
+                    <p>A creamy pasta dish that's quick and easy to make. <a href="recipe-detail.html">Read More</a></p>
+                </div>
+                <div class="recipe-item">
+                    <h3>Chicken Alfredo</h3>
+                    <p>Rich and creamy Alfredo sauce with tender chicken. <a href="recipe-detail.html">Read More</a></p>
+                </div>
+                <div class="recipe-item">
+                    <h3>Vegetable Stir Fry</h3>
+                    <p>Quick and healthy stir fry with a mix of fresh vegetables. <a href="recipe-detail.html">Read More</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Recipe Delight</p>
+            <div class="social-media">
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
