@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog - Destinations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Travel Adventures</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Destinations Page Content -->
+    <section id="destinations">
+        <div class="container">
+            <h2>Destinations</h2>
+            <div class="destination-list">
+                <div class="destination-item">
+                    <h3>Tokyo, Japan</h3>
+                    <img src="tokyo.jpg" alt="Tokyo">
+                    <p>Experience the vibrant cityscape, rich culture, and delicious cuisine of Tokyo.</p>
+                </div>
+                <div class="destination-item">
+                    <h3>Iceland</h3>
+                    <img src="iceland.webp" alt="Iceland">
+                    <p>Discover the stunning glaciers, waterfalls, and geothermal springs of Iceland.</p>
+                </div>
+                <div class="destination-item">
+                    <h3>Paris, France</h3>
+                    <img src="paris.jpeg" alt="Paris">
+                    <p>Explore the iconic landmarks, charming streets, and world-renowned cuisine of Paris.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Travel Adventures</p>
+            <div class="social-media">
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
