@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Section</title>
+    <style>
+        .section {
+            background-color: #f0f8ff;
+            padding: 20px;
+        }
+        .section h2 {
+            color: #ff6347;
+        }
+        .section p {
+            color: #4682b4;
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <h2>Section Heading</h2>
+        <p>This is a paragraph inside the section. It has a different color from the heading.</p>
+    </section>
+</body>
+</html>
