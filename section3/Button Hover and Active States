@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Hover and Active</title>
+    <style>
+        .styled-button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.styled-button:hover {
+    background: #45a049;
+}
+
+.styled-button:active {
+    background: #397d3b;
+}
+    </style>
+</head>
+<body>
+    <button class="styled-button">Click Me</button>
+</body>
+</html>
