@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website - Recipe Detail</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Recipe Delight</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Recipe Detail Page Content -->
+    <section id="recipe-detail">
+        <div class="container">
+            <h2>Spaghetti Carbonara</h2>
+            <img src="sapghetti.jpeg" alt="Spaghetti Carbonara" class="recipe-image">
+            <h3>Ingredients</h3>
+            <ul>
+                <li>200g spaghetti</li>
+                <li>100g pancetta</li>
+                <li>2 large eggs</li>
+                <li>50g Parmesan cheese</li>
+                <li>2 cloves garlic</li>
+                <li>Salt and pepper to taste</li>
+            </ul>
+            <h3>Instructions</h3>
+            <ol>
+                <li>Cook the spaghetti according to package instructions.</li>
+                <li>Fry the pancetta until crispy, then add minced garlic.</li>
+                <li>In a bowl, whisk eggs and Parmesan together.</li>
+                <li>Toss the cooked spaghetti with the pancetta and garlic.</li>
+                <li>Remove from heat and stir in the egg mixture.</li>
+                <li>Season with salt and pepper, and serve immediately.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Recipe Delight</p>
+            <div class="social-media">
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
