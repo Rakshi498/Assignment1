@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Layout</title>
+    <style>
+        .blog-post {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h1 {
+    margin-bottom: 10px;
+}
+
+.blog-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.blog-meta .author,
+.blog-meta .date {
+    font-size: 0.9em;
+}
+
+.blog-post p {
+    line-height: 1.6;
+}
+
+    </style>
+</head>
+<body>
+    <div class="blog-post">
+        <h1>Blog Post Title</h1>
+        <div class="blog-meta">
+            <span class="author">By Rakshith</span>
+            <span class="date">August 28, 2024</span>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+</body>
+</html>
