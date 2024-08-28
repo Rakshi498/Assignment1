@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <style>
+        .product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-info {
+    text-align: center;
+}
+
+.product-info h3 {
+    margin: 10px 0;
+}
+
+.product-info p {
+    margin: 5px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+    </style>
+</head>
+<body>
+    <div class="product-card">
+        <img src="wallet.jpeg" alt="Product">
+        <div class="product-info">
+            <h3>wallet</h3>
+            <p>A wallet is a flat case or pouch, often used to carry small personal items such as physical currency, debit cards, and credit cards; identification documents such as driving licence, identification card, club card; photographs, transit pass, business cards and other paper or laminated cards.</p>
+            <p class="price">Rs29</p>
+        </div>
+    </div>
+</body>
+</html>
